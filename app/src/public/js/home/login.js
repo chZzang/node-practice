@@ -9,7 +9,15 @@ const login = () => {
     id : id.value,
     pw : pw.value,
   };
-  console.log(req);
+  
+  fetch("/login", {
+    method : "POST",
+    headers : {
+      "content-type" : "application/json",
+    },
+    body : JSON.stringify(req) 
+  })
+
 }
 
 loginBtn.addEventListener("click", login);
