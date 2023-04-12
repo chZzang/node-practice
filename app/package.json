@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "bin": {
-    "node": "bin/www.js"
+    "node": "/bin/www.js"
   },
   "devDependencies": {},
   "scripts": {
