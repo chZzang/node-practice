@@ -20,6 +20,6 @@ const login = () => {
   .then((res) => res.json())
   .then(console.log)
 
-}
+};
 
 loginBtn.addEventListener("click", login);
