@@ -8,7 +8,7 @@ class User {
   }
 
   login(){
-    const body = this.body;
+    const body = this.body; 
     const { id, pw } = UserStorage.getUserInfo(body.id);
     
     if(id){
